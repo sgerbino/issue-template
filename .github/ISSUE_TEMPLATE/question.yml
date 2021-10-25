@@ -12,7 +12,7 @@ body:
       required: true
 - type: checkboxes
   attributes:
-    label: Have you read the documentation at https://docs.koinos.io/?
+    label: Have you read the [documentation](https://docs.koinos.io/)?
     description: Please ensure that the question you are asking is not already addressed in the documentation.
     options:
     - label: I have searched the documentation website
