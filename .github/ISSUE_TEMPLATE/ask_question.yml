@@ -15,7 +15,7 @@ body:
     label: Have you read the documentation?
     description: Please ensure that the question you are asking is not already addressed in the [documentation](https://docs.koinos.io/).
     options:
-    - label: I have searched the documentation website
+    - label: I have read the documentation
       required: true
 - type: textarea
   attributes:
