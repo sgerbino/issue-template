@@ -1,4 +1,4 @@
-name: Bug
+name: Bug report
 description: File a bug/issue
 title: "[BUG]: <title>"
 labels: [bug]
@@ -12,19 +12,19 @@ body:
       required: true
 - type: textarea
   attributes:
-    label: Current Behavior
+    label: Current behavior
     description: A concise description of what you're experiencing.
   validations:
     required: false
 - type: textarea
   attributes:
-    label: Expected Behavior
+    label: Expected behavior
     description: A concise description of what you expected to happen.
   validations:
     required: false
 - type: textarea
   attributes:
-    label: Steps To Reproduce
+    label: Steps to reproduce
     description: Steps to reproduce the behavior.
     placeholder: |
       1. In this environment...
@@ -39,12 +39,8 @@ body:
     description: |
       examples:
         - **OS**: Ubuntu 20.04
-        - **Node**: 13.14.0
-        - **npm**: 7.6.3
     value: |
         - OS:
-        - Node:
-        - npm:
     render: markdown
   validations:
     required: false
