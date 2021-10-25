@@ -1,5 +1,5 @@
 name: Bug report
-description: File a bug/issue
+description: File a bug report
 title: "[BUG]: <title>"
 labels: [bug]
 body:
